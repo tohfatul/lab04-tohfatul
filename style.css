@@ -1,7 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid green;
+    margin-top: 10px;
+}
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    gap: 10px;
 }
-.grid-item{
-    border: 1px solid gray;
+
+
+.grid-item-span4{
+   
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+img{
+    width: 10%;
+    height: auto;
 }
